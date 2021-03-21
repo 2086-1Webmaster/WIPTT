@@ -1,291 +1,192 @@
-a.bruh:hover {
-    border: 5px solid blue
-  }
 
-  
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+a.bruh:hover {
+  background-color: green
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1000px) {
+  ul.navimg {
+    font-size: 40px;
+    margin-bottom:-150px;
   }
-  
-  @media screen and (min-width: 1000px) {
-    ul.navimg {
-      font-size: 40px;
-      margin-bottom:-150px;
-    }
-    .navheader {
-      font-size:60px;
-    }
-    .navmedia {
-      font-size:50px;
-    }
-  
-    .maincap1 {
-    font-size: 25px;
-    text-align: center;
+  .navheader {
+    font-size:60px;
   }
-  
-  .imgleft {
-      width:50%;
-      margin-left:20px;
-  }
-  
-  .imgright {
-    width: 50%;
-    margin-left:20px;
-    float:right;
-  }
-  
-  .mobileinvis2 {
-    visibility: hidden;
-    display: none;
-  }
-  
-  .mobileinvis1 {
-    visibility: visible;
-  
-  }
-  
-  .logo {
-    width:350px;
-  }
-  
-  
-  .covidwarning {
+  .navmedia {
     font-size:50px;
   }
-  
-  .bruh {
-    font-size:70px
-  }
 
-
-  
-  }
-  
-  
-  @media screen and (max-width: 1000px) {
-    ul.navimg {
-      font-size: 10px;
-      margin-top: -60px;
-      margin-left:27px
-    }
-  .navheader {
-    font-size:20px
-  }
-  
-  .navmedia {
-    font-size:15px;
-  }
-  
   .maincap1 {
-    font-size: 5px;
-    animation:none;
-    margin-top:-75px;
-  }
-  
-  .imgleft {
-      width:39%;
-      margin-left:5px
-  }
-  
-  .imgright {
-    width:39%;
-    margin-left:5px;
-    float:right;
-   
-  }
-  .mobileinvis2 {
-    visibility: visible;
-  margin-top:-100px;
-  }
-  
-  
-  .mobileinvis1 {
-    visibility: hidden;
+  font-size: 25px;
+  text-align: center;
+}
+
+.imgleft {
+    width:50%;
+    margin-left:20px;
+}
+
+.imgright {
+  width: 50%;
+  margin-left:20px;
+  float:right;
+}
+
+.mobileinvis2 {
+  visibility: hidden;
   display: none;
-  }
-  
-  .logo {
-    width:150px;
-  }
-  
-  .covidwarning {
-    font-size: 8px;
-  }
-  
-  .bruh {
-    font-size:15px
-  }
-
-
-
-  .bg-image {
-    visibility: hidden;
-    display: none
-  }
-
-
-
-  .bg-text{
-    margin-top: 25%
-  }
-  }
-  
-  
-  .rounded {
-    border-radius: 15px
-  }
-  
-  
-  body {
-    background-color: white;
-  }
-  
-  .highlight:hover{
-    background-color: gray;
-  }
-  
-  
-  .navbar-custom {
-    background-color: white;
-  }
-  
-  
-  div.testdiv {
-    background-color: black;
-    width:100px;
-    height:100px;
-  }
-
-
-  .home:hover {
-        color: gray;
-  }
-
-  .modal-title {
-      float:left;
-  }
-
-  div.hoverd:hover {
-      border: 5px double orange;
-  }
-  @font-face {
-    font-family: Neoteric;
-    src: url(Neoteric-32A8.ttf)
-  }
-  .nav-link {
-    font-family: Neoteric;
-  }
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  } 
-
-
-  @font-face {
-    font-family: Billabong;
-    src: url(Billabong.ttf);
-  }
-
-   /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.mobileinvis1 {
+  visibility: visible;
+
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
+.logo {
+  width:350px;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-} 
+
+.covidwarning {
+  font-size:50px;
+}
+
+.bruh {
+  font-size:70px
+}
+
+.bg-image {
+  visibility: visible;
+}
 
 
-#grad {
-  background-image: linear-gradient(to bottom right, #a1d2e2, #41a2c2);
+}
+
+
+@media screen and (max-width: 1000px) {
+  ul.navimg {
+    font-size: 10px;
+    margin-top: -60px;
+    margin-left:27px
+  }
+.navheader {
+  font-size:10px;
+}
+
+.navmedia {
+  font-size:10px;
+}
+
+.maincap1 {
+  font-size: 5px;
+  animation:none;
+  margin-top:-75px;
+}
+
+.imgleft {
+    width:39%;
+    margin-left:5px
+}
+
+.imgright {
+  width:39%;
+  margin-left:5px;
+  float:right;
+ 
+}
+.mobileinvis2 {
+  visibility: visible;
+margin-top:-100px;
+}
+
+
+.mobileinvis1 {
+  visibility: hidden;
+display: none;
+}
+
+.logo {
+  width:150px;
+}
+
+.covidwarning {
+  font-size: 8px;
+}
+
+.bruh {
+  font-size:10px
+}
+.bg-image {
+  visibility: hidden;
+  display: none;
+}
+
+
+.bg-text {
+  margin-top:25%
+}
+
+.container-fluid {
+  margin-bottom:50px
+}
+
+}
+
+
+.rounded {
   border-radius: 15px
 }
 
 
-
-*, *:before, *:after {
-  box-sizing: inherit;
+body {
+  background-color: white;
 }
 
-.background {
-  padding: 0 25px 25px;
-  position: relative;
-  width: 100%;
+.highlight:hover{
+  background-color: gray;
 }
 
-.background::after {
-  content: '';
-  background: #60a9ff;
-  background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
-  background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
-  background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
-  height: 350px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+
+.navbar-custom {
+  background-color: white;
 }
 
-@media (min-width: 900px) {
-  .background {
-    padding: 0 0 25px;
-  }
+
+div.testdiv {
+  background-color: black;
+  width:100px;
+  height:100px;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 50px 0 0;
-  max-width: 960px;
-  width: 100%;
+.inline-photo {
+  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+  margin: 2em auto;
+  opacity: 0;
+  transform: translateY(4em) rotateZ(-5deg);
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out;
+  max-width: 550px;
+  width: 70%;
+  will-change: transform, opacity;
 }
 
-.panel {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 15px 25px;
-  position: relative;
-  width: 100%;
-  z-index: 10;
-  border-radius: 15px
+
+.inline-photo.is-visible {
+  opacity: 1;
+  transform: rotateZ(-2deg);
 }
 
-.pricing-table {
-  box-shadow: 5px 10px 13px 6px rgba(0, 0, 0, 0.08), 2px 20px 31px 3px rgba(0, 0, 0, 0.09), 2px 8px 20px 7px rgba(0, 0, 0, 0.02);
-  display: flex;
-  flex-direction: column;
-}
 
+.inline-photo.is-visible1 {
+  opacity: 1;
+  transform: rotateZ(2deg);
+}
 
 .bg-image {
   /* The image used */
@@ -323,47 +224,15 @@ input[type=submit]:hover {
   text-align: center;
 }
 
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 50%;
-  padding: 20px;
-  text-align: center;
+@font-face {
+  font-family: Neoteric;
+  src: url(Neoteric-32A8.ttf)
+}
+
+.nav-link {
+  font-family: Neoteric;
 }
 
 
-#Slider {
-      
-}
-#Actual {
-    background: white;
-    color: black;
-    padding: 20px;
-    border: double 5px black
-}
-.slideup, .slidedown {
-    max-height: 0;            
-    overflow-y: hidden;
-    -webkit-transition: max-height 0.8s ease-in-out;
-    -moz-transition: max-height 0.8s ease-in-out;
-    -o-transition: max-height 0.8s ease-in-out;
-    transition: max-height 0.8s ease-in-out;
-}
-.slidedown {            
-    max-height: 1000px ;                    
-}    
 
 
-.boxblur {
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px 18px #888888;
-}
