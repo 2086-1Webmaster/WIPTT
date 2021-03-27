@@ -16,7 +16,7 @@ a.bruh:hover {
     margin-bottom:-150px;
   }
   .navheader {
-    font-size:60px;
+    font-size:70px;
   }
   .navmedia {
     font-size:50px;
@@ -76,11 +76,11 @@ a.bruh:hover {
     margin-left:27px
   }
 .navheader {
-  font-size:10px;
+  font-size:35px;
 }
 
 .navmedia {
-  font-size:10px;
+  font-size:17px;
 }
 
 .maincap1 {
@@ -129,7 +129,7 @@ display: none;
 
 
 .bg-text {
-  margin-top:25%
+  margin-bottom:35%
 }
 
 .container-fluid {
