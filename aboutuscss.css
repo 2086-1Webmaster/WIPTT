@@ -168,8 +168,8 @@ div.testdiv {
   transform: translateY(4em) rotateZ(-5deg);
   transition: transform 4s .25s cubic-bezier(0,1,.3,1),
               opacity .3s .25s ease-out;
-  max-width: 550px;
-  width: 40%;
+  max-width: 650px;
+  width: 60%;
   will-change: transform, opacity;
 }
 
