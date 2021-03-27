@@ -13,8 +13,9 @@ a.bruh:hover {
     font-size: 40px;
     margin-bottom:-150px;
   }
+  
   .navheader {
-    font-size:60px;
+    font-size:70px;
   }
   .navmedia {
     font-size:50px;
@@ -74,11 +75,11 @@ a.bruh:hover {
     margin-left:27px
   }
 .navheader {
-  font-size:10px;
+  font-size:35px;
 }
 
 .navmedia {
-  font-size:10px;
+  font-size:17px;
 }
 
 .maincap1 {
@@ -126,9 +127,7 @@ display: none;
 }
 
 
-.bg-text {
-  margin-top:25%
-}
+
 
 .container-fluid {
   margin-bottom:50px
@@ -164,13 +163,13 @@ div.testdiv {
 
 .inline-photo {
   box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
-  margin: 2em auto;
+  margin: 2em;
   opacity: 0;
   transform: translateY(4em) rotateZ(-5deg);
   transition: transform 4s .25s cubic-bezier(0,1,.3,1),
               opacity .3s .25s ease-out;
   max-width: 550px;
-  width: 70%;
+  width: 40%;
   will-change: transform, opacity;
 }
 
@@ -230,3 +229,4 @@ div.testdiv {
 .nav-link {
   font-family: Neoteric;
 }
+
